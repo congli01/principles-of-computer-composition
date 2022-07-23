@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="25000000fs"></ZoomStartTime>
+      <ZoomEndTime time="272500001fs"></ZoomEndTime>
+      <Cursor1Time time="130000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="217"></NameColumnWidth>
+      <ValueColumnWidth column_width="150"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wave_markers>
+      <marker time="1267970000000" label="" />
+      <marker time="1268010000000" label="" />
+      <marker time="1268410000000" label="" />
+      <marker time="1268950000000" label="" />
+      <marker time="1268990000000" label="" />
+      <marker time="1269390100000" label="" />
+      <marker time="1392690000000" label="" />
+      <marker time="1392710000000" label="" />
+      <marker time="1393830000000" label="" />
+      <marker time="1393270000000" label="" />
+      <marker time="1393250000000" label="" />
+      <marker time="1393290000000" label="" />
+      <marker time="1393810000000" label="" />
+      <marker time="1393850000000" label="" />
+      <marker time="1394730000000" label="" />
+      <marker time="1394710000000" label="" />
+      <marker time="1394690000000" label="" />
+      <marker time="570000000" label="" />
+      <marker time="590000000" label="" />
+      <marker time="690000000" label="" />
+      <marker time="650000000" label="" />
+      <marker time="670000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/addr_from_cpu" type="array">
+      <obj_property name="ElementShortName">addr_from_cpu[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_from_cpu[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/rreq_from_cpu" type="logic">
+      <obj_property name="ElementShortName">rreq_from_cpu</obj_property>
+      <obj_property name="ObjectShortName">rreq_from_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/wreq_from_cpu" type="logic">
+      <obj_property name="ElementShortName">wreq_from_cpu</obj_property>
+      <obj_property name="ObjectShortName">wreq_from_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/wdata_from_cpu" type="array">
+      <obj_property name="ElementShortName">wdata_from_cpu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_from_cpu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/rdata_from_mem" type="array">
+      <obj_property name="ElementShortName">rdata_from_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_from_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/rvalid_from_mem" type="logic">
+      <obj_property name="ElementShortName">rvalid_from_mem</obj_property>
+      <obj_property name="ObjectShortName">rvalid_from_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/tag_from_cpu" type="array">
+      <obj_property name="ElementShortName">tag_from_cpu[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_from_cpu[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/tag_from_cache" type="array">
+      <obj_property name="ElementShortName">tag_from_cache[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_from_cache[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/valid_bit" type="logic">
+      <obj_property name="ElementShortName">valid_bit</obj_property>
+      <obj_property name="ObjectShortName">valid_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/miss" type="logic">
+      <obj_property name="ElementShortName">miss</obj_property>
+      <obj_property name="ObjectShortName">miss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/wreq_to_mem" type="logic">
+      <obj_property name="ElementShortName">wreq_to_mem</obj_property>
+      <obj_property name="ObjectShortName">wreq_to_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/waddr_to_mem" type="array">
+      <obj_property name="ElementShortName">waddr_to_mem[12:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_to_mem[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/wdata_to_mem" type="array">
+      <obj_property name="ElementShortName">wdata_to_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_to_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/cache_line" type="array">
+      <obj_property name="ElementShortName">cache_line[37:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_line[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/cache_line_r" type="array">
+      <obj_property name="ElementShortName">cache_line_r[37:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_line_r[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/trace_rdata" type="array">
+      <obj_property name="ElementShortName">trace_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">trace_rdata[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache_rdata" type="array">
+      <obj_property name="ElementShortName">cache_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_rdata[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/g0/cache0/rdata_to_cpu" type="array">
+      <obj_property name="ElementShortName">rdata_to_cpu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_to_cpu[7:0]</obj_property>
+   </wvobject>
+</wave_config>
